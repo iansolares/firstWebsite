@@ -1,0 +1,70 @@
+html{
+    background: #508C9B;
+    color: #201E43;
+    font-size: 30px;
+    
+}
+
+#mainTitle{
+    text-align: center;
+}
+
+h2[subtitle]{
+    text-align: center;
+    font-size: 1.3rem;
+}
+
+h2{
+    text-align: center;
+    font-size: 1rem;
+}
+
+h3[subtitle]{
+    text-align: center;
+    font-size: 0.8rem;
+    background-color: #134B70;
+    
+}
+
+h3{
+    color: #EEEEEE;
+    text-align: left;
+    font-size: 0.8rem;
+    
+}
+
+h4[subtitle]{
+    font-size: 0.7rem;
+}
+
+h4{
+    color: #EEEEEE;
+    width:fit-content;
+    text-align: left;
+    font-size: 0.6rem;
+}
+
+.text{
+    color: #EEEEEE;
+    font-size: 0.55rem;
+    text-align: justify;
+    border-width: 1em;
+}
+
+#profilePicture{
+    height: 350px;
+}
+
+.logo{
+    height: 150px;
+}
+
+.center{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+*{
+    font-family: "Roboto Condensed", sans-serif;
+}
