@@ -7,6 +7,7 @@ html{
 
 #mainTitle{
     text-align: center;
+    padding: 0px;
 }
 
 h2[subtitle]{
@@ -17,6 +18,7 @@ h2[subtitle]{
 h2{
     text-align: center;
     font-size: 1rem;
+    padding: 0px;
 }
 
 h3[subtitle]{
@@ -30,7 +32,7 @@ h3{
     color: #EEEEEE;
     text-align: left;
     font-size: 0.8rem;
-    
+    padding: 5px;
 }
 
 h4[subtitle]{
@@ -48,11 +50,12 @@ h4{
     color: #EEEEEE;
     font-size: 0.55rem;
     text-align: justify;
-    border-width: 1em;
+    padding: 0px 15px
 }
 
 #profilePicture{
     height: 350px;
+    padding: 0%;
 }
 
 .logo{
@@ -63,8 +66,24 @@ h4{
     display: block;
     margin-left: auto;
     margin-right: auto;
+    text-align: center;
 }
 
 *{
     font-family: "Roboto Condensed", sans-serif;
+}
+
+.horizontalButton{
+    height: 280px;
+    width: 100%;
+/*    border: 5px solid #201E43;  */
+}
+.button{
+    color: #EEEEEE;
+}
+
+.language{
+    height: 30px;
+    width: 50px;
+    margin-left: 90%;
 }
