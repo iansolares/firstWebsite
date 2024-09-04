@@ -5,9 +5,65 @@ html{
     
 }
 
-#mainTitle{
-    text-align: center;
-    padding: 0px;
+.mainTitle{
+    text-align: left;
+    text-decoration: none;
+    color: #201E43;
+    position: relative;
+        bottom: 25%;
+        left: 25px;
+}
+
+.noUnderlineTitle{
+    text-decoration: none;
+    color: #201E43;
+}
+
+
+
+.content{
+    position: absolute;
+        top: 160px;
+        width: 100%;
+}
+
+.horizontalButton{
+    background-color: #201E43;
+    position: absolute;
+        top: 100px;
+        left: 0px;
+    height: 50px;
+    width: 100%;
+}
+
+.button{
+    font-size: 25px;
+    color: #EEEEEE;
+    text-decoration: none;
+}
+
+#button1{
+    position: relative;
+        bottom: 45px;
+        left: 10%;
+}
+
+#button2{
+    position: relative;
+        bottom: 137px;
+        left: 30%;
+}
+
+#button3{
+    position: relative;
+        bottom: 227px;
+        left: 50%;
+}
+
+#button4{
+    position: relative;
+        bottom: 317px;
+        left: 75%;
 }
 
 h2[subtitle]{
@@ -15,11 +71,6 @@ h2[subtitle]{
     font-size: 1.3rem;
 }
 
-h2{
-    text-align: center;
-    font-size: 1rem;
-    padding: 0px;
-}
 
 h3[subtitle]{
     text-align: center;
@@ -46,6 +97,20 @@ h4{
     font-size: 0.6rem;
 }
 
+#aboutMe{
+    background-color:#508C9B;
+    position: relative;
+        left: 50%;
+        top: -250px;
+        z-index: 2;
+    width: 500px;
+}
+
+#contact{
+    position: absolute;
+    bottom: 10px;
+}
+
 .text{
     color: #EEEEEE;
     font-size: 0.55rem;
@@ -55,7 +120,10 @@ h4{
 
 #profilePicture{
     height: 350px;
-    padding: 0%;
+    margin: auto;
+    position: relative;
+        left: 25%;
+        top: 100px;
 }
 
 .logo{
@@ -73,17 +141,29 @@ h4{
     font-family: "Roboto Condensed", sans-serif;
 }
 
-.horizontalButton{
-    height: 280px;
-    width: 100%;
-/*    border: 5px solid #201E43;  */
-}
-.button{
-    color: #EEEEEE;
-}
-
-.language{
+.language-en{
     height: 30px;
     width: 50px;
-    margin-left: 90%;
+    position: absolute;
+        right: 25px;
+        top: 40px;
+        z-index: 1;
+}
+
+.language-esp{
+    height: 30px;
+    width: 50px;
+    position: absolute;
+        right: 80px;
+        top: 40px;
+        z-index: 1;
+}
+
+.upperMenu{
+    background-color: #EEEEEE;
+    position: absolute;
+        top: 0%;
+        left: 0%;
+    height: 100px;
+    width: 100%;
 }

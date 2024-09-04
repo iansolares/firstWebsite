@@ -12,38 +12,42 @@
         <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@500&display=swap" rel="stylesheet">
 
         <div>
-        <a href="./Public/Esp/indice.html"> <img class="language" src="https://th.bing.com/th/id/OIP.ZdfQVynForOv6b4fvP5TvwAAAA?rs=1&pid=ImgDetMain" /> </a>
-        <a href="./index.html"> <img class="language" src="https://cdn.pixabay.com/photo/2017/03/14/21/00/american-flag-2144392_960_720.png" /> </a>
+        <a href="./Public/Esp/indice.html"> <img class="language-esp" src="https://th.bing.com/th/id/OIP.ZdfQVynForOv6b4fvP5TvwAAAA?rs=1&pid=ImgDetMain" /> </a>
+        <a href="./index.html"> <img class="language-en" src="https://cdn.pixabay.com/photo/2017/03/14/21/00/american-flag-2144392_960_720.png" /> </a>
         </div>
     </head>
 
     <body>
-        <div>
-            <h1 id="mainTitle">Ian Solares' Resume</h1>
-            <img id="profilePicture" class="center" src="./Assets/Images/Ian New.jpg"/>
+
+        <div class="upperMenu">
+            <h1 class="mainTitle">Ian Solares' Resume</h1>
         </div>
-        
+
         <div class="horizontalButton">
-            <h2><a class="button" href="./Public/Eng/skills.html">Skills</a></h2>
+            <h2><a class="button" id="button1" href="./Public/Eng/skills.html">Skills</a></h2>
 
-            <h2><a class="button" href="./Public/Eng/work.html">Work</a></h2>
+            <h2><a class="button" id="button2" href="./Public/Eng/work.html">Work</a></h2>
 
-            <h2><a class="button" href="./Public/Eng/education.html">Education</a></h2>
+            <h2><a class="button" id="button3" href="./Public/Eng/education.html">Education</a></h2>
 
-            <h2><a class="button" href="./Public/Eng/awards.html">Certifications</a></h2>
+            <h2><a class="button" id="button4" href="./Public/Eng/awards.html">Certifications</a></h2>
         </div>
 
-        <hr />
+        <div class="content">
 
-        <h2 subtitle>About Me</h2>
-            <p class="text">I'm a proactive, organized, and responsible person. I enjoy teamwork and learning new things from those around me.
-                My objective is to have a challenging and dynamic role where I can share my experience and integrate new knowledge to myself as well.
-                What I most like about life is learning new things, meeting new people, and experiencing things out of my confort zone.
-                If I'm being challenged, I'm up for it!</p>
+            <img id="profilePicture" src="./Assets/Images/Ian New.jpg"/>
+
+            <div id="aboutMe">
+                <h2 subtitle>About Me</h2>
+                    <p class="text">I'm a proactive, organized, and responsible person. I enjoy teamwork and learning new things from those around me.
+                        My objective is to have a challenging and dynamic role where I can share my experience and integrate new knowledge to myself as well.
+                        What I most like about life is learning new things, meeting new people, and experiencing things out of my confort zone.
+                        If I'm being challenged, I'm up for it!</p>
+            </div>
+
+        </div>
         
-        <hr />
-
-        <a class="text" href="mailto:iaansolares@gmail.com">Contact Me</a>
+        <a class="text" id="contact" href="mailto:iaansolares@gmail.com">Contact Me</a>
 
     </body>
 </html>
